@@ -9,14 +9,16 @@
 		"README.md"
 	],
 	"bin": {
-		"pigpio-debugger": "dist/index.js"
+		"pigpio-debugger": "./dist/index.js"
 	},
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"type": "module",
 	"license": "MIT",
 	"scripts": {
-		"start": "tsx ./src/index.ts"
+		"start": "tsx ./src/index.ts",
+		"build": "tsc",
+		"prepublishOnly": "tsc"
 	},
 	"devDependencies": {
 		"@types/node": "^20.12.12",
