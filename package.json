@@ -11,8 +11,15 @@
 	"bin": {
 		"pigpio-debugger": "./dist/index.js"
 	},
+	"author": "Tristan F. <leodog896@gmail.com> (https://leodog896.com)",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
+	"keywords": ["pigpio", "gpio", "debugger", "cli"],
+	"homepage": "https://github.com/LeoDog896/pigpio-debugger#readme",
+	"bugs": {
+		"url": "https://github.com/LeoDog896/pigpio-debugger/issues"
+	},
+	"repository": "github:LeoDog896/pigpio-debugger",
 	"type": "module",
 	"license": "MIT",
 	"scripts": {
